@@ -1,5 +1,4 @@
 # 🔧🧠 LLM Fine-Tuning 
-
 Welcome to the **LLM Fine-Tuning Repo** — a collection of hands-on fine-tuning experiments on large language models (LLMs) like GPT-2.  
 Here you'll find mini-projects that explore how fine-tuning transforms general-purpose models into task-specific experts.
 
