@@ -1,5 +1,5 @@
 # 🔧🧠 LLM Fine-Tuning 
-Welcome to the **LLM Fine-Tuning Repo** — a collection of hands-on fine-tuning experiments on large language models (LLMs) like GPT-2.  
+Welcome to the **LLM Fine-Tuning Repo** — a collection of hands-on fine-tuning experiments on large language models (LLMs) like GPT-2(later will extend for other models too).  
 Here you'll find mini-projects that explore how fine-tuning transforms general-purpose models into task-specific experts.
 
 ---
@@ -8,7 +8,7 @@ Here you'll find mini-projects that explore how fine-tuning transforms general-p
 
 This repository is dedicated to building, training, and evaluating LLMs fine-tuned on custom datasets for various **text classification** and **language understanding** tasks.
 
-- 🚀 Based on HuggingFace Transformers
+- 🚀 Based on Transformers Architechture
 - 📚 Fine-tuned from GPT-2 (for now) later will be doing on different models
 - 🧪 Designed for experimentation, benchmarking, and learning
 
@@ -18,13 +18,13 @@ This repository is dedicated to building, training, and evaluating LLMs fine-tun
 
 | Project | Description |
 |--------|-------------|
-| 📘 [`subject-classifier`](subject-classification-fine-tuning.ipynb) | Fine-tunes GPT-2 to classify academic subjects (Math, Science, History, etc.) based on input sentences |
-| 😊 [`emotion-classifier`](EMOTION-CLASSIFICATION-FINE-TUNING.ipynb) | Fine-tunes GPT-2 to classify emotional tone in short texts (happy, sad, angry, etc.) |
-| 📰 [`news-category-classifier`](news-classifier-fine-tuning.ipynb) | Fine-tunes GPT-2 to categorize news headlines/articles into domains like Business, Sports, Technology, etc. |
+| 📘 [`subject-classifier`](subject-classification-fine-tuning.ipynb) | Fine-tunes GPT-2 to classify academic subjects (Math, Physics,Chemistry,Biology etc.) based on input sentences |
+| 😊 [`emotion-classifier`](EMOTION-CLASSIFICATION-FINE-TUNING.ipynb) | Fine-tunes GPT-2 to classify emotional tone in short texts (fear, surpise,sad, angry,joy,love etc.) |
+| 📰 [`news-category-classifier`](news-classifier-fine-tuning.ipynb) | Fine-tunes GPT-2 to categorize news headlines/articles into domains like Business, Sports, Technology,Science etc. |
 
 Each project has:
-- ✅ A preprocessed dataset
-- ✅ A training script (with HuggingFace Trainer or LoRA)
+- ✅ A dataset that is pre-processed and is converted into suitable form
+- ✅ A training script
 - ✅ Evaluation metrics (accuracy)
 - ✅ Sample predictions
 - ✅ README for reproducibility
@@ -38,7 +38,6 @@ Here’s what I’ll be working on soon:
 | Project | Description |
 |---------|-------------|
 | 🧘 `spiritual-text-classifier` | Classify spiritual content (e.g., yoga, devotion, Vedanta, karma, bhakti) |
-| 🏥 `medical-intent-detector` | Fine-tune a model to detect user intent in medical queries (symptom vs appointment vs emergency) |
 | 📄 `legal-document-tagger` | Fine-tune a legal-specific classifier for document tagging |
 | 💬 `multi-label tweet classifier` | Handle tweets with multiple tags (sarcasm, hate speech, news, personal) |
 | ✍️ `style-transfer-generator` | Fine-tune an LLM to rewrite content in different tones (e.g., Shakespearean, sarcastic, formal)
@@ -47,16 +46,16 @@ Here’s what I’ll be working on soon:
 
 ## 🛠️ Tech Stack
 
-- 🤗 HuggingFace Transformers
+-  Transformers Architechture
 - 🧨 GPT-2 as base model(later will experiment with different models)
-- 🧪 Datasets: custom + HuggingFace Datasets
-- ⚙️ Training: full fine-tuning, LoRA (in future), PEFT
+- 🧪 Datasets: Kaggle + HuggingFace Datasets
+- ⚙️ Training: full fine-tuning, LoRA (in future), PEFT(in future)
 
 ---
 
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/llm-finetuning-lab.git
-cd llm-finetuning
+git clone https://github.com/prasanna00019/Fine-Tuning-LLMs.git
+cd Fine-Tuning-LLMs
 pip install -r requirements.txt
