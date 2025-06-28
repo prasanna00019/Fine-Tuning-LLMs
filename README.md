@@ -18,9 +18,9 @@ This repository is dedicated to building, training, and evaluating LLMs fine-tun
 
 | Project | Description |
 |--------|-------------|
-| 📘 [`subject-classifier`](./subject-classifier/) | Fine-tunes GPT-2 to classify academic subjects (Math, Science, History, etc.) based on input sentences |
-| 😊 [`emotion-classifier`](./emotion-classifier/) | Fine-tunes GPT-2 to classify emotional tone in short texts (happy, sad, angry, etc.) |
-| 📰 [`news-category-classifier`](./news-category-classifier/) | Fine-tunes GPT-2 to categorize news headlines/articles into domains like Business, Sports, Technology, etc. |
+| 📘 [`subject-classifier`](subject-classification-fine-tuning.ipynb) | Fine-tunes GPT-2 to classify academic subjects (Math, Science, History, etc.) based on input sentences |
+| 😊 [`emotion-classifier`](EMOTION-CLASSIFICATION-FINE-TUNING.ipynb) | Fine-tunes GPT-2 to classify emotional tone in short texts (happy, sad, angry, etc.) |
+| 📰 [`news-category-classifier`](news-classifier-fine-tuning.ipynb) | Fine-tunes GPT-2 to categorize news headlines/articles into domains like Business, Sports, Technology, etc. |
 
 Each project has:
 - ✅ A preprocessed dataset
